@@ -1,0 +1,157 @@
+* {
+  	margin: 0;
+}
+
+body {
+				background-color: #23475F;
+				font-family: 'Ubuntu', sans-serif;
+				font-weight: 700;
+				font-style: bold;
+				color:#55595b;
+				height: 100%;
+			}
+
+			.container {
+				background-color: white;
+				border-radius: 10px;
+				box-shadow: 10px 10px 5px #11222E;
+				padding-bottom:0px;
+				
+			}
+
+			.btn:hover {
+				background-color: #23475F;
+				color:white;
+				box-shadow:5px 5px 2px #11222E; 
+				-webkit-transition: all 500ms ease;
+				-moz-transition: all 500ms ease;
+				-ms-transition: all 500ms ease;
+				-o-transition: all 500ms ease;
+				transition: all 500ms ease;
+			}
+
+			.btn {
+				margin-top:10px;
+			}
+
+.page-wrap {
+  			min-height: 100%;
+		  /* equal to footer height */
+  			margin-bottom: -112px; 
+		}
+
+
+		.site-footer {
+		margin-top: 25%;
+		  height: 100px; 
+		  margin-bottom: 0px;
+
+		}
+
+		.site-footer {
+			font-size: 1em;
+		}
+
+		.navbar {
+			background-color: #00D1B1;
+			position:relative; 
+			width:100%;
+			
+
+		}
+
+		.nav>li>a:hover {
+		    text-decoration: none;
+		   	background-color: #00B69A;
+    		padding:0, 15;
+    		color:white;
+    		-webkit-transition: all 500ms ease;
+			-moz-transition: all 500ms ease;
+			-ms-transition: all 500ms ease;
+			-o-transition: all 500ms ease;
+			transition: all 500ms ease;
+		}
+		
+		.nav-text {
+			color:white;
+			font-size: 1.2em;
+		}
+
+		.nav>li>a {
+			
+		}
+
+		.footer-txt {
+			font-size: 1em;
+			color:white;
+			margin-top: 2em;
+			margin-left: 2.5em;
+		}
+
+		.icon-txt {
+			font-size: 1em;
+			color:white;
+			margin-left: 2.5em;
+		}
+
+		.fa {
+			color: white;
+		}
+
+		.fa:hover {
+			color:#0f8c77;
+			-webkit-transition: all 500ms ease;
+			-moz-transition: all 500ms ease;
+			-ms-transition: all 500ms ease;
+			-o-transition: all 500ms ease;
+			transition: all 500ms ease;
+		}
+
+		.image {
+			position:relative;
+			left:40%;
+			border:4px solid grey;
+			border-radius:50%;
+			box-shadow: 3px 3px 1px #3a3a3a;
+			margin-top: 1.5em;
+
+		}
+
+		@media (max-width: 400px) {
+    		.image {
+        		left: 22%;
+    		}
+		}
+
+@media (min-width: 768px) {
+.navbar-form .input-group>.form-control {
+    width: 100%;
+    position: relative;
+    bottom: 2em;
+    left: 60em;
+}
+
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+       z-index: 2;
+    margin-top: 1px;
+    position: relative;
+    left: 60em;
+    bottom: 2.1em;
+}
+
+.site-footer {
+		margin-top: 25%;
+		  height: 100px; 
+		  margin-bottom: 0px;
+
+		}
+
+.page-wrap {
+  		min-height: 100%;
+		  /* equal to footer height */
+  		margin-bottom: -112px; 
+}
+
+}
+
+

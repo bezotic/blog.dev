@@ -1,0 +1,170 @@
+body {
+	background-image: url(/image/avocado.png);
+	background-repeat: ;
+	-webkit-animation: colorPulse 10s infinite alternate;
+	
+}
+
+h1 {
+text-align: center;
+}
+
+
+#button1 {
+	postion:relative;
+	top:30px;
+	left:300px;
+	height:150px;
+	width: 200px;
+	border:3px solid #008080;
+	background-color: #FFDF46;
+	cursor: url(/image/molcajete.jpg) 50 50, auto;
+	float: right;
+	
+}
+
+#button2 {
+	postion:relative;
+	top:30px;
+	left:300px;
+	height:150px;
+	width: 200px;
+	border:3px solid #008080;
+	background-color: #FFDF46;
+	cursor: url(/image/molcajete.jpg) 50 50, auto;
+	float: right;
+
+}
+
+#button3 {
+	postion:relative;
+	top:30px;
+	left:300px;
+	height:150px;
+	width: 200px;
+	border:3px solid #008080;
+	background-color: #FFDF46;
+	cursor: url(/image/molcajete.jpg) 50 50, auto;
+	float: right;
+}
+
+#button4 {
+	postion:relative;
+	top:30px;
+	left:300px;
+	height:150px;
+	width: 200px;
+	border:3px solid #008080;
+	background-color: #FFDF46;
+	cursor: url(/image/molcajete.jpg) 50 50, auto;
+	float: right;
+}
+
+#button5 {
+	postion:relative;
+	top:30px;
+	left:300px;
+	height:150px;
+	width: 200px;
+	border:3px solid #008080;
+	background-color: #FFDF46;
+	cursor: url(/image/molcajete.jpg) 50 50, auto;
+	float: right;
+}
+
+#button6 {
+	postion:relative;
+	top:30px;
+	left:300px;
+	height:150px;
+	width: 200px;
+	border:3px solid #008080;
+	background-color: #FFDF46;
+	cursor: url(/image/molcajete.jpg) 50 50, auto;
+	float: right;
+}
+
+#button7 {
+	postion:relative;
+	top:30px;
+	left:300px;
+	height:150px;
+	width: 200px;
+	border:3px solid #008080;
+	background-color: #FFDF46;
+	cursor: url(/image/molcajete.jpg) 50 50, auto;
+	float: right;
+
+}
+
+#button8 {
+	postion:relative;
+	top:30px;
+	left:300px;
+	height:150px;
+	width: 200px;
+	border:3px solid #008080;
+	background-color: #FFDF46;
+	cursor: url(/image/molcajete.jpg) 50 50, auto;
+	float: right;
+}
+
+#button9 {
+	postion:relative;
+	top:30px;
+	left:300px;
+	height:150px;
+	width: 200px;
+	border:3px solid #008080;
+	background-color: #FFDF46;
+	cursor: url(/image/molcajete.jpg) 50 50, auto;
+	float: right;
+}
+
+.avocado {
+	display:none;
+}
+
+.container {
+		width: 640px;
+		background-color: #AAF0D1;
+		margin: 0 auto;
+}
+
+
+
+h1 {
+
+	text-align: center;
+	background-color: yellow:;
+	color:	#2E5894;
+}
+
+h3 {
+	text-align: center;
+}
+
+#start {
+	background-color: #AAF0D1;
+	position:relative;
+	bottom:20px;
+	color:white;
+}
+
+.swacado {
+	position:relative;
+	top:100px;
+}
+
+.chipotle {
+	position:relative;
+	left:1200px;
+	top:110px;
+}
+
+#guap {
+	position:relative;
+	bottom:400px;
+	left:750px;
+	
+}

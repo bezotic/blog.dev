@@ -1,0 +1,92 @@
+body {
+	background-color: #FFCC33;
+
+}
+
+#map-canvas {
+	width: 980px;
+    height: 700px;
+    background-color: grey;
+    bottom:600px;
+}
+        
+#day-1 {
+	border-style: solid;
+	height:300px;
+	width:350px;
+	background-color: #50BFE6;
+
+}
+
+#day-2 {
+	border-style: solid;
+	height:300px;
+	width:350px;
+	position:relative;
+	left:360px;
+	bottom:305px;
+	background-color: #50BFE6;
+}
+
+#day-3 {
+	border-style: solid;
+	height:300px;
+	width:350px;
+	position:relative;
+	left:720px;
+	bottom:611px;
+	background-color: #50BFE6;
+}
+
+form {
+	position:relative;
+	bottom:550px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#bacon {
+	float:right;
+	position:relative;
+	right:20px;
+}
+
+p {
+	text-align: center;
+}
+
+#weather {
+	position:relative;
+	left:20px;
+}
+
+#map-canvas {
+	border-radius: 30px;
+}
+
+#baconz {
+	position:relative;
+}
+
+#pancakez {
+	position:relative;
+}
+
+#babez {
+	position:relative;
+}
+
+#push {
+	position:relative;
+	bottom:585px;
+	right:280px;
+}
+
+
+
+#us {
+	position:relative;
+	bottom:500px;
+}

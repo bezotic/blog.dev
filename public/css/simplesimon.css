@@ -1,0 +1,158 @@
+#piece-1 {
+	border-top:20px;
+	border-bottom: 100px solid red;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	width: 150px;
+	transform:rotate(180deg);
+	border-radius: 50px;
+	position:relative;
+	left:500px;
+	top:120px;
+	opacity:0.5;
+
+
+}
+
+#piece-2 {
+	border-top:20px;
+	border-bottom: 100px solid blue;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	width: 120px;
+	height:;
+	transform:rotate(270deg);
+	border-radius: 50px;
+	position:relative;
+	left:640px;
+	top:130px;
+	opacity:0.5;
+
+}
+
+#piece-3 {
+	border-top:20px;
+	border-bottom: 100px solid yellow;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	width: 125px;
+	transform:rotate(89deg);
+	border-radius: 30px;
+	position:relative;
+	left:388px;
+	top:30px;
+	opacity:0.5;
+}
+
+#piece-4 {
+	border-top:20px;
+	border-bottom: 100px solid green;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	width: 150px;
+	transform:rotate(360deg);
+	border-radius: 30px;
+	position:relative;
+	left:500px;
+	top:40px;
+	opacity:0.5;
+}
+
+#gameSet {
+	color:blue;
+	background-color: black;
+	height:120px;
+	width: 150px;
+	position: relative;
+	left:550px;
+	bottom:180px;
+}
+
+body {
+	background-color:white;
+}
+
+.button-1 {
+	height:80px;
+	width:130px;
+	position:relative;
+	left:560px;
+	bottom:390px;
+	background-color: red;
+	border-color: red;
+
+	
+}
+
+.button-2 {
+	height:80px;
+	width:130px;
+	position:relative;
+	left:550px;
+	bottom:280px;
+	background-color: blue;
+	border-color: blue;
+	transform:rotate(90deg);
+	
+}
+
+.button-3 {
+	height:80px;
+	width:130px;
+	position:relative;
+	left:165px;
+	bottom:280px;
+	background-color: yellow;
+	border-color: yellow;
+	transform:rotate(90deg);
+	
+}
+
+.button-4{
+	height:80px;
+	width:130px;
+	position:relative;
+	left:155px;
+	bottom:170px;
+	background-color: green;
+	border-color: green;
+	transform:rotate(180deg);
+	
+}
+
+h1 {
+	text-align: center;
+}
+
+.simonPieces {
+	background-color: white;
+	border-radius: 50px;
+	border-radius: 50px;
+	border-radius: 50px;
+	background-color: purple;
+}
+
+body {
+	background-color: blue;
+}
+
+.start {
+	background-color: black;
+	color:white;
+	position:relative;
+	bottom:300px;
+	left:60px;
+	border-color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+

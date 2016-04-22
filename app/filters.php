@@ -88,3 +88,18 @@ Route::filter('csrf', function()
 		throw new Illuminate\Session\TokenMismatchException;
 	}
 });
+
+route::filter('edit', function($route){
+
+	$user = Auth::user();
+
+	if($user->isStandard()) {
+		$postID = $route->getParameter('posts');
+		$post = Post::find($postId);
+		if (! $post->isAuthor($user)) {
+			Session::flash('errorMessage', "you cannot edit this post");
+			return Redirect::action('PostsController@index');
+		}
+	}
+
+});
