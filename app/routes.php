@@ -58,6 +58,8 @@ Route::resource('users', 'UserController');
 
 Route::get('login', array('uses' => 'UserController@showLogin'));
 
+Route::get('about', array('uses' => 'UserController@showAbout'));
+
 Route::post('login', array('uses' => 'UserController@doLogin'));
 
 Route::get('logout', array('uses' => 'UserController@logout'));
@@ -65,6 +67,8 @@ Route::get('logout', array('uses' => 'UserController@logout'));
 Route::get('/editPassword/{user}', array('uses' => 'UserController@editPassword'));
 
 Route::put('/editPassword/{user}', array('uses' => 'UserController@updatePassword'));
+
+
 
 
 

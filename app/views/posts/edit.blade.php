@@ -21,8 +21,8 @@
 		<p>{{{$errors->first('body')}}}</p>
 		@endif
 		<div class = "form-group">
-			{{ Form::label('image', 'Image') }}
-			{{ Form::file('image') }}
+			{{ Form::label('image', 'Image',) }}
+			{{ Form::file('image' 'height'=>'120', 'width' =>'120') }}
 		</div>
 		@if ($errors->has('image'))
 		<p>{{$errors->first('image')}}</p>

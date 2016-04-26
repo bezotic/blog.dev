@@ -43,15 +43,15 @@
 	}
 
 	.guac-image:hover {
-		-webkit-filter: blur(5px);
+		-webkit-filter: blur(2px);
 	}
 
 	.simon-image:hover {
-		-webkit-filter: blur(5px);
+		-webkit-filter: blur(2px);
 	}
 
 	.weather-image:hover {
-		-webkit-filter: blur(5px);
+		-webkit-filter: blur(2px);
 	}
 
 	@media (max-width: 400px) {

@@ -33,7 +33,11 @@
 
 @section('content')
   <div class="container">
-	{{ Form::open(['action' => 'UserController@store', 'method'=>'POST']) }}
+	{{ Form::open(['action' => 'UserController@store', 'files' =>true, 'method'=>'POST']) }}
+	@if (Auth::check())
+			<img class='image' src="{{{ Auth::user()->image}}}" heigth='200' width='200'>
+
+		@endif
 		{{ Form::label('first name', 'First name') }}
 		{{ Form::text('first name', null,['class'=> 'form-control']) }}
 		@if ($errors->has('first name'))
@@ -56,6 +60,14 @@
 		{{ Form::password('password',['class'=> 'form-control', 'placeholder'=>"put what you like"]) }}
 		@if ($errors->has('password'))
 		<p>{{{$errors->first('password')}}}</p>
+		@endif
+
+		<div class = "form-group">
+			{{ Form::label('image', 'Image') }}
+			{{ Form::file('image') }}
+		</div>
+		@if ($errors->has('image'))
+		<p>{{$errors->first('image')}}</p>
 		@endif
 		<button type="submit" class="btn btn-default" name="save" value="save">submit</button>
 	{{ Form::close()}}

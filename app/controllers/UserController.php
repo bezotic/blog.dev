@@ -8,7 +8,7 @@ class UserController extends \BaseController
 	    // call base controller constructor
 	    parent::__construct();
 	    // run auth filter before all methods on this controller except index and show
-	    $this->beforeFilter('auth', array('except' => array('doLogin', 'showLogin', 'logout', 'create', 'store')));
+	    $this->beforeFilter('auth', array('except' => array('doLogin', 'showLogin', 'logout', 'create', 'store', 'showAbout')));
 	}
 	
 
@@ -179,6 +179,12 @@ if ($validator->fails()) {
 			Session::flash('successMessage', "password was successfully saved!");
 			return Redirect::action('PostsController@index');
 	    }
+	}
+
+	public function showAbout()
+	{
+		return View::make('users.about');
+
 	}
 
 	

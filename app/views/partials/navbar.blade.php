@@ -71,10 +71,10 @@
 	    <div class="collapse navbar-collapse navbar" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
 			<li><a class="nav-text" href="{{{action('PostsController@index')}}}" id='home'>Home</a></li>
-			<li><a class="nav-text" href=""  id='account' >About</a></li>
 			<li><a class="nav-text" href="{{{action('HomeController@projects')}}}"  id='projects' >Projects</a></li>
 			<li><a class="nav-text" href="{{{action('UserController@edit')}}}"  id='projects' >Account</a></li>
 			<li><a class="nav-text" href="{{{action('UserController@logout')}}}"  id='log-out' >Logout</a></li>
+			<li><a class="nav-text" href="{{{action('UserController@showAbout')}}}"  id='about' >About</a></li>
 	     
 	    </div><!-- /.navbar-collapse -->
 </nav>
@@ -96,6 +96,8 @@
 	      <ul class="nav navbar-nav">
 			<li><a class="nav-text" href="{{{action('UserController@showLogin')}}}"  id='log-out' >log-in</a></li>
 			<li><a class="nav-text" href="{{{action('UserController@create')}}}"  id='log-out' >sign-up</a></li>
+			<li><a class="nav-text" href="{{{action('UserController@showAbout')}}}"  id='about' >About</a></li>
+			<li><a class="nav-text" href="{{{action('HomeController@projects')}}}"  id='projects' >Projects</a></li>
 				     
 	    </div><!-- /.navbar-collapse -->
 </nav>

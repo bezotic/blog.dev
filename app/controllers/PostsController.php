@@ -25,7 +25,7 @@ class PostsController extends \BaseController {
 			$posts = Post::with('User')->orderBy('created_at', 'desc')->paginate(4);
 
 		} else {
-		    $posts = Post::with('User')->where('title', 'LIKE', "%$search%")->orWhere('body', 'LIKE', "%$search%")->
+		    $posts = Post::with('User')->where('title', 'LIKE', "%$search%")->orWhere('body', 'LIKE', "%.h%")->
 			orderBy('created_at', 'asc')->paginate(4);
 		}	
 		return View::make('posts.posts')->with('posts', $posts);

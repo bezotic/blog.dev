@@ -11,9 +11,7 @@
 			border-radius: 8px 0px 0px 8px;
 		}
 
-		.fa-lock:hover {
-			color: white;
-		}
+		
 
 		.line {
 			background-color: white;
@@ -31,6 +29,7 @@
 		  height:281px;
 		  width:450px;
 		  margin:0 auto;
+		  left:11em;
 		}
 
 		#cf i {
@@ -43,15 +42,12 @@
 		}
 
 		#cf i.top:hover {
-		  		opacity:0;
+		  opacity:0;
 		}
 
-		#cf2 i.transparent {
-				opacity:0;
-		}
-		
-		#cf_onclick {
-			cursor:pointer;
+		.fa-unlock {
+			background-color: white;
+			color:white;
 		}
 
 	</style>	
@@ -69,9 +65,10 @@
 			<h4 class="pass-ino">Update your password</h4>
 			<br>
 			<div id="cf">
- 				<i class="fa fa-lock fa-4x"></i>
- 				<i class="fa fa-unlock-alt fa-4x"></i>
+ 				<i class="fa fa-lock fa-4x bottom"></i>
+ 				<i class="fa fa-unlock-alt fa-4x top"></i>
 			</div>
+			
 		
 			
 </header>
@@ -96,11 +93,7 @@
 @section('bottom-script')
 <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 <script>
-$(document).ready(function() {
-  $(".btn-default").click(function() {
-  $("#cf2 i.top").toggleClass("transparent");
-});
-});
+
 </script>
 @stop
 
