@@ -50,7 +50,6 @@
 		<p> Created at: {{{ $post->created_at->setTimezone('America/Chicago')->format('l, F jS Y @ h:i:s A')}}} </p>
 		<p> {{{ $post->created_at->diffForHumans() }}}</P>
 	
-
 		
  </div>
  <div class='container col-md-6 post-wrap'>

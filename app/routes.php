@@ -52,6 +52,10 @@ Route::get('query-test', function()
 });
 
 
+Route::get('/', 'PostsController@index');
+
+
+
 
 
 Route::resource('users', 'UserController');
